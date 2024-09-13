@@ -56,8 +56,6 @@ GROUP BY products.name;
 
 La base de données est peuplée avec des données réalistes et peut être interrogée pour obtenir des informations sur les commandes, produits, et utilisateurs.
 
-![Schéma](images/schema.png)
-
 ## 🔮 Évolutions possibles
 
 - 💡 Ajout de requêtes SQL plus complexes (jointures, agrégations, etc.).
