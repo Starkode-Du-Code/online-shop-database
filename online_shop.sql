@@ -1,5 +1,3 @@
--- Active: 1725720062044@@127.0.0.1@3306@online_shop
-
 -- Création de la table `users`
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -39,7 +37,7 @@ CREATE TABLE IF NOT EXISTS order_items (
 );
 
 -- Insertion des utilisateurs
-INSERT INTO users (username, email, password) VALUES
+INSERT IGNORE INTO users (username, email, password) VALUES
 ('john_doe', 'john@example.com', 'password123'),
 ('jane_smith', 'jane@example.com', 'securepassword'),
 ('mark_taylor', 'mark@example.com', 'pass789'),
